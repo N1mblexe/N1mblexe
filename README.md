@@ -13,8 +13,8 @@
      Instagram:ahmet.cev7k.   
      E-mail: ahmet.n1mble@gmail.com
 
--Which programming languages do i know?
+- ⌨️ Which programming languages do i know?
      C/C++ , C# , Java , Arduino.
 
--Which languages do i know?
+- 🗣️ Which languages do i know?
      English , Turkish(main language).
