@@ -6,8 +6,7 @@
      I make my own games but didn't published any of my games yet, 
      just developing for fun and learning
 
-- 🌱 I’m currently developing C/C++ graphic library and couple of usefully 
-     libraries for making it easier for me and my new coder friends
+- 🌱 I’m currently developing games
 
 - 📫 How to reach me?:
      Instagram:ahmet.cev7k.   
