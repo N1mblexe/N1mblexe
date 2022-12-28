@@ -9,11 +9,11 @@
 - 🌱 I’m currently developing games
 
 - 📫 How to reach me?:
-     Instagram:ahmet.cev7k.   
-     E-mail: ahmet.n1mble@gmail.com
+     Instagram:ahmet.cev7k
+     E-mail: ahmet.cev7k@gmail.com
 
 - ⌨️ Which programming languages do i know?
      C/C++ , C# , Java , Arduino.
 
 - 🗣️ Which languages do i know?
-     English , Turkish(main language).
+     English , Turkish (Native language).
