@@ -13,7 +13,7 @@
      E-mail: ahmet.cev7k@gmail.com
 
 - ⌨️ Which programming languages do i know?
-     C/C++ , C# , Java , Arduino.
+     C/C++ , C# , Java.
 
 - 🗣️ Which languages do i know?
      English , Turkish (Native language).
