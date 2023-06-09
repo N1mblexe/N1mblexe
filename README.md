@@ -19,7 +19,7 @@
      English , Turkish (Native language).
      
      
-<a href="https://app.daily.dev/N1mblexe"><img src="https://api.daily.dev/devcards/81fef2c2311f4739a063dbde61b40fe2.png?r=1fr" width="300" alt="N1mblexe's Dev Card"/></a>
+<a href="https://app.daily.dev/N1mblexe"><img src="" width="300" alt="N1mblexe's Dev Card"/></a>
 
 <p align="center">
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=N1mblexe&show_icons=true&theme=dracula&title_color=ff8000&text_color=ffffff&bg_color=6a6a6a&locale=en&layout=compact&hide_border=true" alt="N1mblexe" /> 
