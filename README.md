@@ -1,15 +1,14 @@
 - 👋 Hi, I’m @N1mblexe (Ahmet Çevik)
-     I born in 2004 in Turkey Ankara. I'm in coding for 3-4 years.
+     I born in 2004 in Turkey Ankara. I started development at 2019.
 
-- 👀 I’m interested in game development and Arduino
-     I worked in couple of Arduino projects 
-     I make my own games but didn't published any of my games yet, 
+- 👀 I’m interested in game development and Embedded systems
+     I worked in couple of Embedded system projects 
+     I make my own games, 
      just developing for fun and learning
 
 - 🌱 I’m currently developing games
 
 - 📫 How to reach me?:
-     Instagram:ahmet.cev7k
      E-mail: ahmet.cev7k@gmail.com
 
 - ⌨️ Which programming languages do i know?
