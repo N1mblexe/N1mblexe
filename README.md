@@ -1,18 +1,18 @@
-- 👋 Hi, I’m @N1mblexe (Ahmet Çevik)
-     I born in 2004 in Turkey Ankara. I started development at 2019.
+- 👋 Hi, I’m Ahmet Çevik
+     I started development at 2019 with C for embedded systems (Arduino and Esp32).
 
 - 👀 I’m interested in game development and Embedded systems
      I worked in couple of Embedded system projects 
-     I make my own games, 
-     just developing for fun and learning
+     I made and published my own games on steam,
 
 - 🌱 I’m currently developing games
 
 - 📫 How to reach me?:
-     E-mail: ahmet.cev7k@gmail.com
+     E-mail: ahmetcevik774@gmail.com
 
-- ⌨️ Which programming languages do i know?
-     C/C++ , C# , Java.
+- ⌨️ Which programming languages do i use?
+       C#(for unity) and C++ for my current projects
+       I'm also comfortable with C and Java
 
 - 🗣️ Which languages do i know?
      English , Turkish (Native language).
