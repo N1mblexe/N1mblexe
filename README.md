@@ -1,21 +1,27 @@
 - 👋 Hi, I’m Ahmet Çevik
-     I started development at 2019 with C for embedded systems (Arduino and Esp32).
+
+       I started development at 2019 with C for embedded systems (Arduino and Esp32).
 
 - 👀 I’m interested in game development and Embedded systems
-     I worked in couple of Embedded system projects 
-     I made and published my own games on steam,
+
+       I worked in couple of Embedded system projects 
+       I made and published my own games on steam,
 
 - 🌱 I’m currently developing games
+       Check out the steam page : https://store.steampowered.com/developer/2E
 
 - 📫 How to reach me?:
-     E-mail: ahmetcevik774@gmail.com
+
+       E-mail: ahmetcevik774@gmail.com
 
 - ⌨️ Which programming languages do i use?
+
        C#(for unity) and C++ for my current projects
        I'm also comfortable with C and Java
 
 - 🗣️ Which languages do i know?
-     English , Turkish (Native language).
+
+       English , Turkish (Native language).
      
 
 <p align="center">
