@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://store.steampowered.com/developer/2E"><img src="https://img.shields.io/badge/Steam-2E-171a21?style=for-the-badge&logo=steam&logoColor=white" /></a>
   <a href="ROBOROAR_PLAY_STORE_URL"><img src="https://img.shields.io/badge/Google_Play-Roboroar-414141?style=for-the-badge&logo=googleplay&logoColor=white" /></a>
-  <a href="LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Ahmet_Çevik-0A66C2?style=for-the-badge" /></a>
+  <a href="https://www.linkedin.com/in/ahmet-%C3%A7evik-c7/"><img src="https://img.shields.io/badge/LinkedIn-Ahmet_Çevik-0A66C2?style=for-the-badge" /></a>
   <a href="mailto:ahmetcevik774@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
