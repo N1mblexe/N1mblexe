@@ -34,13 +34,13 @@ I started in 2019 writing C for Arduino and ESP32 boards, then moved into games.
       <a href="https://store.steampowered.com/app/2269530/HaHa/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2269530/header.jpg" width="100%" alt="HaHa Steam header art" /></a><br />
       <b>HaHa</b>, 2024<br />
       <sub>Arena shooter roguelite against endless enemy hordes</sub>
-      <!-- TODO: one line on what YOU built, e.g. "I wrote the enemy wave spawner and the upgrade system." -->
+      I designed and programmed the every system on the game from scratch.
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://store.steampowered.com/app/3193830/HiHi/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3193830/header.jpg" width="100%" alt="HiHi Steam header art" /></a><br />
       <b>HiHi</b>, 2024<br />
       <sub>Vertical platformer: jump up, don't fall</sub>
-      <!-- TODO: one line on what YOU built -->
+      I Worked as a helper programmer for small tasks for core mechanics
     </td>
   </tr>
 </table>
@@ -55,7 +55,6 @@ I started in 2019 writing C for Arduino and ESP32 boards, then moved into games.
 | **Developer console** | Source-engine-style runtime console for testing and debugging in builds | [Unity-Console-Asset](https://github.com/N1mblexe/Unity-Console-Asset) |
 | **VR simulation** | Full VR project modelled in Blender, built in Unity | KTUN Project Fair, 2nd place |
 
-<!-- TODO: check the "Where it shipped" column matches what you actually wrote in each game. -->
 
 ## Tools
 
@@ -93,5 +92,5 @@ I started in 2019 writing C for Arduino and ESP32 boards, then moved into games.
 
 <p align="center">
   <sub>Ankara, Türkiye. Turkish (native) and English.</sub>
-  <!-- TODO: if you're looking for work, add a line here like "Open to gameplay programming roles." -->
+  Open To Game Developer / GamePlay Programmer
 </p>
