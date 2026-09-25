@@ -1,0 +1,82 @@
+# Regenerates the stats cards used in README.md and commits them to profile/.
+# Replaces the public github-readme-stats.vercel.app instance, which is
+# unmaintained and rate-limited (cards randomly show as broken images).
+#
+# Optional: to include private studio repos in the numbers, create a classic PAT
+# with `repo` + `read:user` scopes and save it as the repo secret GRS_TOKEN.
+# Without it, the built-in GITHUB_TOKEN is used (public data only).
+
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, off the top of the hour to dodge queue spikes
+  workflow_dispatch: # run it once manually right after you push this file
+  push:
+    paths:
+      - ".github/workflows/readme-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    env:
+      # Shared look. Transparent background so the card sits on GitHub's own theme.
+      COMMON: "username=N1mblexe&hide_border=true&bg_color=00000000&border_radius=6"
+      DARK: "title_color=FF8000&icon_color=FF8000&text_color=C9D1D9"
+      LIGHT: "title_color=B85A00&icon_color=B85A00&text_color=1F2328"
+      STATS: "show_icons=true&hide_rank=true&include_all_commits=true&custom_title=GitHub%20activity"
+      # ShaderLab/HLSL in Unity repos is almost always imported package code (TextMesh Pro etc.).
+      LANGS: "layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide=shaderlab,hlsl,glsl&custom_title=Languages"
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "${{ env.COMMON }}&${{ env.DARK }}&${{ env.STATS }}"
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GRS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true # keep yesterday's good card instead of committing an error card
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "${{ env.COMMON }}&${{ env.LIGHT }}&${{ env.STATS }}"
+          path: profile/stats-light.svg
+          token: ${{ secrets.GRS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true # keep yesterday's good card instead of committing an error card
+
+      - name: Languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "${{ env.COMMON }}&${{ env.DARK }}&${{ env.LANGS }}"
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GRS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true # keep yesterday's good card instead of committing an error card
+
+      - name: Languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "${{ env.COMMON }}&${{ env.LIGHT }}&${{ env.LANGS }}"
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GRS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: true # keep yesterday's good card instead of committing an error card
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: refresh README cards" || exit 0
+          git push
